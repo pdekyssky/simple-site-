@@ -4,26 +4,26 @@ const steps = [
   {
     number: "01",
     icon: Phone,
-    title: "Sazinies ar mums",
-    description: "Aizpildi kontaktformu vai zvani, lai vienotos par pakalpojumu un konsultāciju.",
+    title: "Kontaktujte nás",
+    description: "Zavolajte a dohodnite si službu a konzultáciu.",
   },
   {
     number: "02",
     icon: Cpu,
-    title: "Diagnostika ar OTOMATIC AI",
-    description: "Precīza filtra stāvokļa analīze un optimāla tīrīšanas procesa plānošana.",
+    title: "Diagnostika s OTOMATIC AI",
+    description: "Presná analýza stavu filtra a optimálne plánovanie procesu čistenia.",
   },
   {
     number: "03",
     icon: Sparkles,
-    title: "Dziļā tīrīšana",
-    description: "Filtrs tiek attīrīts līdz pat 100% efektivitātei, saņemsi detalizētu pārskatu.",
+    title: "Hĺbkové čistenie",
+    description: "Filter je vyčistený so 100% účinnosťou, dostanete podrobnú správu.",
   },
   {
     number: "04",
     icon: CheckCircle,
-    title: "Tests un atgriešana",
-    description: "Pārbaudām filtra darbību, un tas tiek atgriezts atpakaļ automašīnā kā jauns.",
+    title: "Otestujte a vráťte",
+    description: "Skontrolujeme funkčnosť filtra a ten sa vráti do auta ako nový.",
   },
 ];
 
@@ -36,10 +36,10 @@ const Process = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-accent font-semibold mb-4 block">
-            Kā tas notiek?
+            Ako sa to deje?
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-            Mūsu darba process
+            Náš pracovný postup
           </h2>
         </div>
 

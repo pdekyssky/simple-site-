@@ -24,26 +24,26 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/30 mb-8 animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             <span className="text-accent text-sm font-medium">
-              Profesionāla DPF tīrīšana ar AI tehnoloģiju
+              Profesionálne čistenie DPF s technológiou umelej inteligencie
             </span>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Profesionāla DPF un katalizatoru{" "}
-            <span className="text-accent">tīrīšana</span>
+            Profesionálne DPF a katalyzátore{" "}
+            <span className="text-accent">čistenie</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Jūsu transportlīdzekļa elpa no jauna! Mēs palīdzam novērst kvēpu filtru un katalizatoru nosprostojumus — ātri, precīzi un ar jaunākajām tehnoloģijām.
+            Vaše vozidlo bude opäť dýchať! Pomôžeme vám odstrániť upchatia vo filtroch sadzí a katalyzátoroch – rýchlo, presne a s najmodernejšou technológiou.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <Button variant="hero" size="xl">
-              Pieteikt tīrīšanu
+              Požiadajte o čistenie
               <ChevronRight className="w-5 h-5" />
             </Button>
             <Button variant="heroOutline" size="xl">
-              Uzzināt vairāk
+              Zistite viac
             </Button>
           </div>
 
@@ -51,19 +51,20 @@ const Hero = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-border animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <div>
               <p className="text-3xl md:text-4xl font-bold text-accent">100%</p>
-              <p className="text-muted-foreground text-sm">Veiktspējas atjaunošana</p>
+              <p className="text-muted-foreground text-sm">Obnovenie výkonu</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-foreground">500+</p>
-              <p className="text-muted-foreground text-sm">Apmierināti klienti</p>
+              <p className="text-3xl md:text-4xl font-bold text-foreground">50+</p>
+              <p className="text-muted-foreground text-sm">
+Spokojní zákazníci</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold text-foreground">24h</p>
-              <p className="text-muted-foreground text-sm">Ātra apkalpošana</p>
+              <p className="text-muted-foreground text-sm">Rýchla obsluha</p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl font-bold text-foreground">5+</p>
-              <p className="text-muted-foreground text-sm">Gadu pieredze</p>
+              <p className="text-muted-foreground text-sm">Roky skúseností</p>
             </div>
           </div>
         </div>

@@ -16,42 +16,41 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground max-w-md mb-6">
-              Profesionāla DPF un katalizatoru tīrīšana ar jaunākajām AI tehnoloģijām. 
-              Jūsu transportlīdzekļa elpa no jauna!
+              Profesionálne čistenie DPF a katalyzátora s najnovšími technológiami umelej inteligencie. Vaše vozidlo bude opäť dýchať!
             </p>
             <div className="flex gap-4">
               <a
-                href="tel:+37120000000"
+                href="tel:+421910908314"
                 className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +371 2000 0000
+                +421 910 908 314
               </a>
             </div>
           </div>
 
           {/* Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Pakalpojumi</h4>
+            <h4 className="font-semibold text-foreground mb-4">Služby</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-accent transition-colors">
-                  DPF tīrīšana
+                  DPF čistenie
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-accent transition-colors">
-                  Katalizatoru tīrīšana
+                  Čistenie katalyzátora
                 </a>
               </li>
               <li>
                 <a href="#business" className="text-muted-foreground hover:text-accent transition-colors">
-                  Uzņēmumiem
+                  Pre firmy
                 </a>
               </li>
               <li>
                 <a href="#process" className="text-muted-foreground hover:text-accent transition-colors">
-                  Kā tas strādā
+                  Ako to funguje
                 </a>
               </li>
             </ul>
@@ -63,24 +62,24 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-1 shrink-0" />
-                <span>Jūrkalnes iela 62, A7 bokss, Rīga</span>
+                <span>Trenčín</span>
               </li>
               <li>
                 <a
-                  href="tel:+37120000000"
+                  href="tel:+421910908314"
                   className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  +371 2000 0000
+                  +421 910 908 314
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@dpfservis.lv"
+                  href="mailto:info@igor.sk"
                   className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  info@dpfservis.lv
+                  info@igor.sk
                 </a>
               </li>
             </ul>
@@ -89,14 +88,14 @@ const Footer = () => {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} DPF Servis. Visas tiesības aizsargātas.
+            © {new Date().getFullYear()} DPF Servis. Všetky práva vyhradené.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-              Privātuma politika
+              Zásady ochrany osobných údajov
             </a>
             <a href="#" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-              Lietošanas noteikumi
+              Podmienky používania
             </a>
           </div>
         </div>

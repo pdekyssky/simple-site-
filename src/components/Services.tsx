@@ -1,13 +1,13 @@
 import { Car, Bus, Truck, Tractor, Wrench, Factory } from "lucide-react";
 
 const services = [
-  { icon: Car, title: "Vieglās automašīnas" },
-  { icon: Bus, title: "Mikroautobusus" },
-  { icon: Truck, title: "Kravas automašīnas" },
-  { icon: Bus, title: "Autobusus" },
-  { icon: Tractor, title: "Traktorus un lauksaimniecības tehniku" },
-  { icon: Wrench, title: "Būvtehniku" },
-  { icon: Factory, title: "Industriālās iekārtas" },
+  { icon: Car, title: "Osobné automobily" },
+  { icon: Bus, title: "Mikrobus" },
+  { icon: Truck, title: "Dodávky" },
+  { icon: Bus, title: "Autobus" },
+  { icon: Tractor, title: "Traktory a poľnohospodárska technika" },
+  /*{ icon: Wrench, title: "Būvtehniku" },
+  { icon: Factory, title: "Industriālās iekārtas" },*/,
 ];
 
 const Services = () => {
@@ -16,13 +16,14 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-accent font-semibold mb-4 block">
-            Pakalpojumi
+            Služby
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Tīrām kvēpu filtrus
+            Profesionálne čistenie DPF a katalyzátorov
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Piedāvājam profesionālu DPF un katalizatoru tīrīšanu visiem transportlīdzekļu veidiem
+            Ponúkame profesionálne služby čistenia DPF a katalyzátorov pre rôzne typy vozidiel a strojov. 
+            Naša moderná technológia zabezpečuje efektívne odstránenie usadenín a zlepšenie výkonu vášho motora.
           </p>
         </div>
 

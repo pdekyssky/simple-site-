@@ -6,10 +6,10 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { label: "Pakalpojumi", href: "#services" },
-    { label: "Process", href: "#process" },
-    { label: "Uzņēmumiem", href: "#business" },
-    { label: "Kontakti", href: "#contact" },
+    { label: "Služby", id: "services" },
+    { label: "Proces", id: "process" },
+    { label: "Pre firmy", id: "business" },
+    { label: "Kontakt", id: "contact" },
   ];
 
   return (
@@ -29,24 +29,25 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-muted-foreground hover:text-foreground transition-colors font-medium"
-              >
+              <button
+                onClick={ () => 
+                  document.getElementById(link.id)?.scrollIntoView({behavior:"smooth"})
+                }>
                 {link.label}
-              </a>
+                </button>
             ))}
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+37120000000" className="flex items-center gap-2 text-accent font-medium">
+            <a href="tel:+421910908314" className="flex items-center gap-2 text-accent font-medium">
               <Phone className="w-4 h-4" />
-              +371 2000 0000
+              +421 910 908 314
             </a>
-            <Button variant="hero" size="lg">
-              Pieteikt tīrīšanu
+            <Button asChild variant="hero" size="lg">
+              <a href="tel:+421910908314">
+                Požiadajte o čistenie
+              </a>
             </Button>
           </div>
 
@@ -64,17 +65,17 @@ const Header = () => {
           <div className="md:hidden py-4 border-t border-border">
             <nav className="flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-muted-foreground hover:text-foreground transition-colors font-medium"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.label}
-                </a>
+                <button
+                onClick={ () => 
+                  document.getElementById(link.id)?.scrollIntoView({behavior:"smooth"})
+                }>
+                {link.label}
+                </button>
               ))}
-              <Button variant="hero" className="mt-2">
-                Pieteikt tīrīšanu
+              <Button asChild variant="hero" className="mt-2">
+                <a href="tel:+421910908314">
+                  Požiadajte o čistenie
+                </a>
               </Button>
             </nav>
           </div>

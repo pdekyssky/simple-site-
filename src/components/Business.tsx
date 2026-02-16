@@ -4,41 +4,41 @@ import { Button } from "./ui/button";
 const benefits = [
   {
     icon: Calendar,
-    title: "Regulāra apkope",
-    description: "DPF un katalizatoru tīrīšana autoparkiem",
+    title: "Pravidelná údržba",
+    description: "Čistenie DPF a katalyzátora pre vozové parky",
   },
   {
     icon: Rocket,
-    title: "Ātrs serviss",
-    description: "Kvalitatīvs un savlaicīgs serviss pēc grafika",
+    title: "Rýchla obsluha",
+    description: "Kvalitný a včasný servis podľa harmonogramu",
   },
   {
     icon: Search,
-    title: "Individuāla pieeja",
-    description: "Elastīgi risinājumi Jūsu vajadzībām",
+    title: "Individuálny prístup",
+    description: "Flexibilné riešenia pre vaše potreby",
   },
   {
     icon: Handshake,
-    title: "Izdevīgas cenas",
-    description: "Īpaši nosacījumi partneriem",
+    title: "Dobré ceny",
+    description: "Špeciálne podmienky pre partnerov",
   },
   {
     icon: FileText,
-    title: "Dokumentācija",
-    description: "Pārskati un garantijas par darbu",
+    title: "Dokumentácia",
+    description: "Recenzie a záruky na prácu",
   },
   {
     icon: Truck,
-    title: "Piegāde",
-    description: "Filtru saņemšana un piegāde",
+    title: "Doručenie",
+    description: "Príjem a dodanie filtrov",
   },
 ];
 
 const advantages = [
-  "Samazināti degvielas izdevumi un efektīvāka tehnika",
-  "Ilgāks transporta un tehnikas ekspluatācijas laiks",
-  "Mazāk dīkstāves un dzinēja sistēmas kļūdu",
-  "Videi draudzīgs risinājums — bez filtru izgriešanas",
+  "Znížené nákladov na palivo a efektívnejšie stroje",
+  "Dlhšia životnosť vozidiel a strojov",
+  "Menej chýb systému motora",
+  "Ekologické riešenie – bez rezania filtra",
 ];
 
 const Business = () => {
@@ -47,10 +47,10 @@ const Business = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-accent font-semibold mb-4 block">
-            Uzņēmumiem
+            Pre firmy
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Ko piedāvājam uzņēmumiem?
+            Čo ponúkame firmám?
           </h2>
         </div>
 
@@ -81,8 +81,8 @@ const Business = () => {
           
           <div className="relative z-10 grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                Priekšrocības Jūsu uzņēmumam
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">       
+              Výhody pre vašu spoločnosť
               </h3>
               <ul className="space-y-4">
                 {advantages.map((advantage, index) => (
@@ -98,10 +98,10 @@ const Business = () => {
             
             <div className="text-center lg:text-left">
               <p className="text-lg text-muted-foreground mb-6">
-                Ātra apkalpošana / Droša tehnoloģija / Pārbaudāmi rezultāti.
+                Rýchly servis / Spoľahlivá technológia / Overené výsledky.
               </p>
               <Button variant="hero" size="xl">
-                Sazināties ar mums
+                Kontaktujte nás
               </Button>
             </div>
           </div>
@@ -109,15 +109,15 @@ const Business = () => {
       </div>
 
       {/* Marquee */}
-      <div className="mt-24 overflow-hidden">
+     {/*<div className="mt-24 overflow-hidden">
         <div className="flex animate-marquee whitespace-nowrap">
           {[...Array(4)].map((_, i) => (
             <span key={i} className="mx-8 text-2xl md:text-4xl font-bold text-muted-foreground/30">
-              Ātra apkalpošana / Droša tehnoloģija / Pārbaudāmi rezultāti /
+              Rýchly servis / Spoľahlivá technológia / Overené výsledky /
             </span>
           ))}
         </div>
-      </div>
+      </div>*/}
     </section>
   );
 };

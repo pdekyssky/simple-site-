@@ -4,23 +4,23 @@ import cleaningMachine from "@/assets/cleaning-machine.jpg";
 const features = [
   {
     icon: Gauge,
-    title: "Atjauno līdz 100% veiktspēju",
-    description: "Pilnīga filtra funkcionalitātes atjaunošana",
+    title: "Obnovuje až 100 % výkon",
+    description: "Úplné obnovenie funkčnosti DPF filtra",
   },
   {
     icon: Zap,
-    title: "Samazina degvielas patēriņu",
-    description: "Efektīvāka dzinēja darbība",
+    title: "Znižuje spotrebu paliva",
+    description: "Efektívnejšia prevádzka motora",
   },
   {
     icon: Leaf,
-    title: "Videi draudzīgs",
-    description: "Bez filtru izgriešanas vai viltošanas",
+    title: "Šetrné k životnému prostrediu",
+    description: "Žiadne rezanie ani manipulácia s filtrom",
   },
   {
     icon: Cpu,
     title: "AI diagnostika",
-    description: "Precīza filtra stāvokļa analīze",
+    description: "Presná analýza stavu filtra",
   },
 ];
 
@@ -57,14 +57,15 @@ const Technology = () => {
           {/* Content */}
           <div>
             <span className="text-accent font-semibold mb-4 block">
-              Mūsu tehnoloģija
+              Naša technológia
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              DPF Filtru Mazgāšana ar{" "}
-              <span className="text-accent">Mākslīgā Intelekta</span> Tehnoloģiju
+              Čistenie DPF filtra{" "}
+              <span className="text-accent">AI</span>Technológiou
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Mēs esam vienīgie Latvijā, kas strādā ar OTOMATIC DPF PLATINUM AI iekārtu — augstākā līmeņa, patentētu tehnoloģiju DPF filtru atjaunošanai.
+              Sme jediní na Slovensku, ktorí pracujú so zariadením OTOMATIC DPF PLATINUM AI – najvyššou patentovanou technológiou na regeneráciu DPF filtra.
+
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6">

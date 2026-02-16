@@ -9,19 +9,19 @@ const Contact = () => {
           {/* Map / Location */}
           <div>
             <span className="text-accent font-semibold mb-4 block">
-              Kontakti
+              Kontakt
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Kur mūs atrast?
+              Kde nás nájdete?
             </h2>
             <p className="text-muted-foreground mb-8">
-              Mūsu serviss atrodas Rīgā, ērti pieejamā vietā gan privātpersonām, gan uzņēmumiem.
+              Naše služby sa nachádzajú v Trenčíne, kde sú ľahko dostupné pre jednotlivcov aj firmy.
             </p>
 
             {/* Map Placeholder */}
             <div className="relative rounded-2xl overflow-hidden bg-card border border-border h-64 md:h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2176.8!2d24.0!3d56.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTbCsDU0JzAwLjAiTiAyNMKwMDAnMDAuMCJF!5e0!3m2!1sen!2slv!4v1600000000000!5m2!1sen!2slv"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20982.819325962522!2d18.003415667401793!3d48.89914974278463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4714a163bedb61bb%3A0x395be666fb395b6b!2sR%26B%20DPF%20s.r.o.!5e0!3m2!1ssk!2ssk!4v1771253670313!5m2!1ssk!2ssk"
                 className="absolute inset-0 w-full h-full grayscale opacity-70"
                 style={{ border: 0 }}
                 allowFullScreen
@@ -30,10 +30,15 @@ const Contact = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4">
-                <Button variant="hero" size="lg" className="w-full sm:w-auto">
-                  <ExternalLink className="w-4 h-4" />
-                  Saņemt ceļa norādes
-                </Button>
+
+                <a
+                href="https://www.google.com/maps/dir/?api=1&destination=48.898311251816246, 18.01835411054102"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=""
+                >
+                Získajte trasu
+                </a>
               </div>
             </div>
           </div>
@@ -46,10 +51,10 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Adrese</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Adresa</h3>
                   <p className="text-muted-foreground">
-                    Jūrkalnes iela 62, A7 bokss<br />
-                    Rīga, LV-1046
+                    Trenčín 62<br />
+                    Trenčín
                   </p>
                 </div>
               </div>
@@ -59,9 +64,9 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Tālrunis</h3>
-                  <a href="tel:+37120000000" className="text-accent hover:underline">
-                    +371 2000 0000
+                  <h3 className="font-semibold text-foreground mb-1">Telefón</h3>
+                  <a href="tel:+421910908314" className="text-accent hover:underline">
+                    +421 910 908 314
                   </a>
                 </div>
               </div>
@@ -71,9 +76,9 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">E-pasts</h3>
-                  <a href="mailto:info@dpfservis.lv" className="text-accent hover:underline">
-                    info@dpfservis.lv
+                  <h3 className="font-semibold text-foreground mb-1">E-mail</h3>
+                  <a href="mailto:info@igor.sk" className="text-accent hover:underline">
+                    info@igor.sk
                   </a>
                 </div>
               </div>
@@ -83,10 +88,10 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground mb-1">Darba laiks</h3>
+                  <h3 className="font-semibold text-foreground mb-1">Pracovná doba</h3>
                   <p className="text-muted-foreground">
-                    Pirmdien - Piektdien: 9:00 - 18:00<br />
-                    Sestdien: pēc vienošanās
+                    Pondelok - Piatok: 9:00 - 18:00<br />
+                    Sobota: po dohode
                   </p>
                 </div>
               </div>
