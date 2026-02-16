@@ -34,31 +34,59 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Služby</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-accent transition-colors">
-                  DPF čistenie
-                </a>
+                <button
+  onClick={() =>
+    document.getElementById("services")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="text-muted-foreground hover:text-accent transition-colors text-left"
+>
+  DPF čistenie
+</button>
               </li>
               <li>
-                <a href="#services" className="text-muted-foreground hover:text-accent transition-colors">
-                  Čistenie katalyzátora
-                </a>
+                <button
+  onClick={() =>
+    document.getElementById("services")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="text-muted-foreground hover:text-accent transition-colors text-left"
+>
+  Čistenie katalyzátora
+</button>
               </li>
               <li>
-                <a href="#business" className="text-muted-foreground hover:text-accent transition-colors">
-                  Pre firmy
-                </a>
+                <button
+  onClick={() =>
+    document.getElementById("business")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="text-muted-foreground hover:text-accent transition-colors text-left"
+>
+  Pre firmy
+</button>
               </li>
               <li>
-                <a href="#process" className="text-muted-foreground hover:text-accent transition-colors">
-                  Ako to funguje
-                </a>
+                <button
+  onClick={() =>
+    document.getElementById("process")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="text-muted-foreground hover:text-accent transition-colors text-left"
+>
+  Ako to funguje ?
+</button>
               </li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Kontakti</h4>
+            <h4 className="font-semibold text-foreground mb-4">Kontakt</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-1 shrink-0" />

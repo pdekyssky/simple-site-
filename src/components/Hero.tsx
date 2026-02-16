@@ -39,7 +39,9 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <Button variant="hero" size="xl">
-              Požiadajte o čistenie
+              <a href="tel:+421910908314">
+                Zavolajte nám
+              </a>
               <ChevronRight className="w-5 h-5" />
             </Button>
             <Button variant="heroOutline" size="xl">

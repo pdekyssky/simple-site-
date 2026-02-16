@@ -22,7 +22,7 @@ const steps = [
   {
     number: "04",
     icon: CheckCircle,
-    title: "Otestujte a vráťte",
+    title: "Otestujeme a vrátime",
     description: "Skontrolujeme funkčnosť filtra a ten sa vráti do auta ako nový.",
   },
 ];

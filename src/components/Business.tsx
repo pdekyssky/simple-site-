@@ -100,8 +100,10 @@ const Business = () => {
               <p className="text-lg text-muted-foreground mb-6">
                 Rýchly servis / Spoľahlivá technológia / Overené výsledky.
               </p>
-              <Button variant="hero" size="xl">
-                Kontaktujte nás
+              <Button asChild variant="hero" size="xl">
+                <a href="tel:+421910908314">
+                  Kontaktujte nás !
+                </a>
               </Button>
             </div>
           </div>
