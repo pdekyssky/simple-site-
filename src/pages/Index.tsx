@@ -6,6 +6,7 @@ import Process from "@/components/Process";
 import Business from "@/components/Business";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery"
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Technology />
       <Services />
       <Process />
+      <Gallery />
       <Business />
       <Contact />
       <Footer />

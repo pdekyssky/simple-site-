@@ -8,6 +8,7 @@ const Header = () => {
   const navLinks = [
     { label: "Služby", id: "services" },
     { label: "Proces", id: "process" },
+    {label: "Galéria", id: "gallery"},
     { label: "Pre firmy", id: "business" },
     { label: "Kontakt", id: "contact" },
   ];
