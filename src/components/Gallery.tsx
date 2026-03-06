@@ -21,7 +21,7 @@ const images = [
 
 const Gallery = () =>{
   return (
-    <section id="gallery" className="py-20 max-w-90 px-20" >
+    <section id="gallery" className="py-20 container mx-auto px-4" >
       <h2 className="text-3xl font-bold text-center mb-10">
         Galéria realizácií
       </h2>
@@ -35,6 +35,8 @@ const Gallery = () =>{
           <a key={i} href={src}>
             <img
               src={src}
+              alt={`DPF čistenie realizácia ${i + 1 }`}
+              loading="lazy"
               className="w-full h-64 object-cover rounded-xl cursor-pointer"
             />
           </a>

@@ -35,7 +35,7 @@ const benefits = [
 ];
 
 const advantages = [
-  "Znížené nákladov na palivo",
+  "Znížené náklady na palivo",
   "Dlhšia životnosť vozidiel a strojov",
   "Menej chýb systému motora",
   "Ekologické riešenie s minimálnimi emisiami",
@@ -55,9 +55,9 @@ const Business = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {benefits.map((benefit, index) => (
+          {benefits.map((benefit) => (
             <div
-              key={index}
+              key={benefit.title}
               className="flex gap-4 p-6 rounded-2xl bg-card border border-border hover:border-accent/50 transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center shrink-0">
@@ -102,7 +102,7 @@ const Business = () => {
               </p>
               <Button asChild variant="hero" size="xl">
                 <a href="tel:+421910908314">
-                  Kontaktujte nás !
+                  Kontaktujte nás!
                 </a>
               </Button>
             </div>

@@ -11,16 +11,38 @@ import Gallery from "@/components/Gallery"
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Header />
-      <Hero />
-      <Technology />
-      <Services />
-      <Process />
-      <Gallery />
-      <Business />
-      <Contact />
-      <Footer />
-    </div>
+  <Header />
+
+  <section id="hero">
+    <Hero />
+  </section>
+
+  <section id="technology">
+    <Technology />
+  </section>
+
+  <section id="services">
+    <Services />
+  </section>
+
+  <section id="process">
+    <Process />
+  </section>
+
+  <section id="gallery">
+    <Gallery />
+  </section>
+
+  <section id="business">
+    <Business />
+  </section>
+
+  <section id="contact">
+    <Contact />
+  </section>
+
+  <Footer />
+</div>
   );
 };
 

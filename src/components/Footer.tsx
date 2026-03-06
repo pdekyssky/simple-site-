@@ -118,14 +118,7 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © {new Date().getFullYear()} DPF Servis. Všetky práva vyhradené.
           </p>
-          <div className="flex gap-6">
-            <a href="#" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-              Zásady ochrany osobných údajov
-            </a>
-            <a href="#" className="text-muted-foreground text-sm hover:text-accent transition-colors">
-              Podmienky používania
-            </a>
-          </div>
+          
         </div>
       </div>
     </footer>

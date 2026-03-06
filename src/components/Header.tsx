@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Link } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Header = () => {
@@ -18,19 +18,20 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
               <span className="text-accent-foreground font-bold text-lg">D</span>
             </div>
             <span className="font-bold text-xl text-foreground">
               R&B <span className="text-accent">DPF s.r.o.</span>
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <button
+              key={link.id}
                 onClick={ () => 
                   document.getElementById(link.id)?.scrollIntoView({behavior:"smooth"})
                 }>
@@ -67,8 +68,12 @@ const Header = () => {
             <nav className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <button
-                onClick={ () => 
+                key={link.id}
+                onClick={ () => {
                   document.getElementById(link.id)?.scrollIntoView({behavior:"smooth"})
+                  setIsOpen(false)
+                }
+                  
                 }>
                 {link.label}
                 </button>

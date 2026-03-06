@@ -32,7 +32,7 @@ const Contact = () => {
               <div className="absolute bottom-4 left-4 right-4">
 
                 <a
-                href="https://www.google.com/maps/dir/?api=1&destination=48.898311251816246, 18.01835411054102"
+                href="https://www.google.com/maps/dir/?api=1&destination=48.898311251816246,18.01835411054102"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=""
@@ -54,8 +54,10 @@ const Contact = () => {
                   <h3 className="font-semibold text-foreground mb-1">Adresa</h3>
                   <p className="text-muted-foreground">
                     Bratislavská 1011<br />
-                    911 05 Trenčín - Zlatovce
+                    911 05 Trenčín - Zlatovce<br/ >
+                    Slovensko
                   </p>
+                  
                 </div>
               </div>
 

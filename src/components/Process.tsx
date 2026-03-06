@@ -50,7 +50,7 @@ const Process = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
               <div
-                key={index}
+                key={step.number}
                 className="relative group"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >

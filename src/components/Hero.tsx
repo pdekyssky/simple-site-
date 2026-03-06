@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBg})` }}
+        style={{ backgroundImage: `url(/hero-bg.jpg)` }}
       />
       
       {/* Overlay */}
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Profesionálne čistenie DPF filtorv a katalyzátorov
+            Profesionálne čistenie DPF filtrov a katalyzátorov
             
           </h1>
           
@@ -44,7 +44,7 @@ const Hero = () => {
               </a>
               <ChevronRight className="w-5 h-5" />
             </Button>
-            <Button variant="heroOutline" size="xl">
+            <Button variant="heroOutline" size="xl" onClick={() => document.getElementById("services")?.scrollIntoView({behavior:"smooth"})}>
               Zistite viac
             </Button>
           </div>

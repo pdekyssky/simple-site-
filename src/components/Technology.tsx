@@ -26,7 +26,7 @@ const features = [
 
 const Technology = () => {
   return (
-    <section id="services" className="py-24 bg-surface-dark">
+    <section id="technology" className="py-24 bg-surface-dark">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image */}
@@ -34,7 +34,7 @@ const Technology = () => {
             <div className="relative rounded-2xl overflow-hidden">
               <img
                 src={cleaningMachine}
-                alt="DPF tīrīšanas iekārta"
+                alt="Zariadenie na čistenie DPF filtra"
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
@@ -59,10 +59,12 @@ const Technology = () => {
             <span className="text-accent font-semibold mb-4 block">
               Naša technológia
             </span>
-            <h2 className="text-accent text-3xl md:text-4xl font-bold mb-6">
-              Čistenie DPF filtra{" "}
-              <p>s pomocou AI technológie</p>
-            </h2>
+            <h2 className="text-accent text-3xl md:text-4xl font-bold mb-2">
+  Čistenie DPF filtra
+</h2>
+<p className="text-accent text-xl mb-6">
+  s pomocou AI technológie
+</p>
             <p className="text-muted-foreground text-lg mb-8">
               Naša firma pracuje s najnovším zariadením od firmy OTOMATIC - DPF PLATINUM AI – najvyššou patentovanou technológiou na čo najdokonalejšie vyčistenie DPF filtra.
 
