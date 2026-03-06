@@ -5,7 +5,7 @@ const benefits = [
   {
     icon: Calendar,
     title: "Pravidelná údržba",
-    description: "Čistenie DPF a katalyzátora pre vozové parky",
+    description: "Čistenie DPF filtrov a katalyzátorov",
   },
   {
     icon: Rocket,
@@ -25,20 +25,20 @@ const benefits = [
   {
     icon: FileText,
     title: "Dokumentácia",
-    description: "Recenzie a záruky na prácu",
+    description: "Protokol o vyčistení DPF filtra",
   },
   {
     icon: Truck,
     title: "Doručenie",
-    description: "Príjem a dodanie filtrov",
+    description: "Odvoz a dovoz Vášho DPF filtra",
   },
 ];
 
 const advantages = [
-  "Znížené nákladov na palivo a efektívnejšie stroje",
+  "Znížené nákladov na palivo",
   "Dlhšia životnosť vozidiel a strojov",
   "Menej chýb systému motora",
-  "Ekologické riešenie – bez rezania filtra",
+  "Ekologické riešenie s minimálnimi emisiami",
 ];
 
 const Business = () => {

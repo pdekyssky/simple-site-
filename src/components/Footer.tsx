@@ -16,7 +16,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground max-w-md mb-6">
-              Profesionálne čistenie DPF a katalyzátora s najnovšími technológiami umelej inteligencie. Vaše vozidlo bude opäť dýchať!
+              Profesionálne čistenie DPF filtrov a katalyzátorov s najnovšími technológiami umelej inteligencie. Vaše vozidlo bude opäť dýchať!
             </p>
             <div className="flex gap-4">
               <a
@@ -90,7 +90,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-1 shrink-0" />
-                <span>Trenčín</span>
+                <span>Trenčín - Zlatovce</span>
               </li>
               <li>
                 <a

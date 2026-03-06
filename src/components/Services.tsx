@@ -1,11 +1,13 @@
 import { Car, Bus, Truck, Tractor, Wrench, Factory } from "lucide-react";
+import { FaTruckMoving } from "react-icons/fa";
 
 const services = [
   { icon: Car, title: "Osobné automobily" },
-  { icon: Bus, title: "Mikrobus" },
+  { icon: Bus, title: "Mikrobusy" },
   { icon: Truck, title: "Dodávky" },
-  { icon: Bus, title: "Autobus" },
-  { icon: Tractor, title: "Traktory a poľnohospodárska technika" },
+  { icon: Bus, title: "Autobusy" },
+  { icon: Tractor, title: "Poľnohospodárske a stavebné stroje" },
+  { icon: FaTruckMoving, title: "Nákladné vozidlá" },
   /*{ icon: Wrench, title: "Būvtehniku" },
   { icon: Factory, title: "Industriālās iekārtas" },*/,
 ];
@@ -19,11 +21,11 @@ const Services = () => {
             Služby
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Profesionálne čistenie DPF a katalyzátorov
+            Profesionálne čistenie DPF filtrov a katalyzátorov
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Ponúkame profesionálne služby čistenia DPF a katalyzátorov pre rôzne typy vozidiel a strojov. 
-            Naša moderná technológia zabezpečuje efektívne odstránenie usadenín a zlepšenie výkonu vášho motora.
+            Ponúkame profesionálne služby čistenia DPF filtrov a katalyzátorov pre všetky typy vozidiel, stavebných a poľnohospodárskych strojov. 
+            Naša moderná technológia zabezpečuje efektívne odstránenie nežiadúcich nečistôt a zlepšenie výkonu vášho motora.
           </p>
         </div>
 

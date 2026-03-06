@@ -10,7 +10,7 @@ const features = [
   {
     icon: Zap,
     title: "Znižuje spotrebu paliva",
-    description: "Efektívnejšia prevádzka motora",
+    description: "Efektívnejšia prevádzka motora, a zároveň zabezpečuje bezproblémovosť na emisnej kontrole",
   },
   {
     icon: Leaf,
@@ -20,7 +20,7 @@ const features = [
   {
     icon: Cpu,
     title: "AI diagnostika",
-    description: "Presná analýza stavu filtra",
+    description: "Presná analýza stavu DPF filtra počas doby čistenia",
   },
 ];
 
@@ -59,12 +59,12 @@ const Technology = () => {
             <span className="text-accent font-semibold mb-4 block">
               Naša technológia
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+            <h2 className="text-accent text-3xl md:text-4xl font-bold mb-6">
               Čistenie DPF filtra{" "}
-              <span className="text-accent">AI</span>Technológiou
+              <p>s pomocou AI technológie</p>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Sme jediní na Slovensku, ktorí pracujú so zariadením OTOMATIC DPF PLATINUM AI – najvyššou patentovanou technológiou na regeneráciu DPF filtra.
+              Naša firma pracuje s najnovším zariadením od firmy OTOMATIC - DPF PLATINUM AI – najvyššou patentovanou technológiou na čo najdokonalejšie vyčistenie DPF filtra.
 
             </p>
 

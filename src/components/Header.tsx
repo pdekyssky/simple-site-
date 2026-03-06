@@ -22,7 +22,7 @@ const Header = () => {
               <span className="text-accent-foreground font-bold text-lg">D</span>
             </div>
             <span className="font-bold text-xl text-foreground">
-              DPF<span className="text-accent">Servis</span>
+              R&B <span className="text-accent">DPF s.r.o.</span>
             </span>
           </a>
 

@@ -5,25 +5,25 @@ const steps = [
     number: "01",
     icon: Phone,
     title: "Kontaktujte nás",
-    description: "Zavolajte a dohodnite si službu a konzultáciu.",
+    description: "Zavolajte a dohodnite si termín prípadne konzultáciu.",
   },
   {
     number: "02",
     icon: Cpu,
-    title: "Diagnostika s OTOMATIC AI",
-    description: "Presná analýza stavu filtra a optimálne plánovanie procesu čistenia.",
+    title: "Skontrolujeme a otestujeme stav vášho DPF filtra",
+    description: "Presná analýza stavu filtra a optimálne plánovanie procesu čistenia pomocou AI technológie.",
   },
   {
     number: "03",
     icon: Sparkles,
     title: "Hĺbkové čistenie",
-    description: "Filter je vyčistený so 100% účinnosťou, dostanete podrobnú správu.",
+    description: "Filter je vyčistený so 98% účinnosťou, ku vyčistenému filtru získate protokol o vyčistení.",
   },
   {
     number: "04",
     icon: CheckCircle,
-    title: "Otestujeme a vrátime",
-    description: "Skontrolujeme funkčnosť filtra a ten sa vráti do auta ako nový.",
+    title: "Výsledný efekt",
+    description: "Kvalitu vyčisteného DPF filtra pocítite okamžite na výkone vášho vozidla, v prípade potreby vám poskytneme poradenstvo ohľadom správneho záchádzania s vozidlom s DPF filtrom.",
   },
 ];
 

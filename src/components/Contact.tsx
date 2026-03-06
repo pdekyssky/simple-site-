@@ -53,8 +53,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Adresa</h3>
                   <p className="text-muted-foreground">
-                    Trenčín 62<br />
-                    Trenčín
+                    Bratislavská 1011<br />
+                    911 05 Trenčín - Zlatovce
                   </p>
                 </div>
               </div>
@@ -90,8 +90,9 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Pracovná doba</h3>
                   <p className="text-muted-foreground">
-                    Pondelok - Piatok: 9:00 - 18:00<br />
-                    Sobota: po dohode
+                    Pondelok - Štvrtok : 9:00 - 18:00<br />
+                    Piatok : 8:00 -17:00<br />
+                    Sobota: Na objednávku
                   </p>
                 </div>
               </div>
