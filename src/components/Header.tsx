@@ -1,6 +1,8 @@
 import { useState } from "react";
-import { Menu, X, Phone, Link } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import {Link} from "react-router-dom"
 import { Button } from "./ui/button";
+import logo from "../assets/logo.png"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +20,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg">D</span>
+          <Link to="/" className="flex items-center gap-2" onClick={()=> window.scrollTo({ top: 0, behavior:"smooth"})}>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+              {/*<img src={logo} alt="logo"  className="w-full h-full object-contain"/>*/}
             </div>
             <span className="font-bold text-xl text-foreground">
               R&B <span className="text-accent">DPF s.r.o.</span>

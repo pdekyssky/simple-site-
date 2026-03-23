@@ -9,15 +9,19 @@ import "lightgallery/css/lg-thumbnail.css";
 
 import img1 from "../assets/stroj.png"
 import img2 from "../assets/cistenie.png"
-import img3 from "../assets/pred_cistenim.png"
-import img4 from "../assets/po_cisteni.png"
+import img5 from "../assets/pred_cistenim.png"
+import img6 from "../assets/po_cisteni.png"
+import img3 from "../assets/proces_cistenia1.png"
+import img4 from "../assets/proces_cistenia2.png"
 
 
 const images = [
-  {src: img1, alt:"Otomatic prístroj"},
+  {src: img1, alt:"Otomatic platinum AI"},
    {src: img2, alt:"Proces čistenia"},
-   {src: img3, alt:"Pred vyčistením"},
-   {src: img4, alt:"Po vyčistení"},
+   {src: img3, alt:"Proces čistenia"},
+   {src: img4, alt:"Proces čistenia"},
+   {src: img5, alt:"Pred vyčistením"},
+   {src: img6, alt:"Po vyčistení"},
 ];
 
 const Gallery = () =>{
