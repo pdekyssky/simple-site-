@@ -7,16 +7,17 @@ import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 
+import img1 from "../assets/stroj.png"
+import img2 from "../assets/cistenie.png"
+import img3 from "../assets/pred_cistenim.png"
+import img4 from "../assets/po_cisteni.png"
+
+
 const images = [
-  "/gallery/1.jpg",
-  "/gallery/2.jpg",
-  "/gallery/3.jpg",
-  "/gallery/4.jpg",
-  "/gallery/5.jpg",
-  "/gallery/6.jpg",
-  "/gallery/7.jpg",
-  "/gallery/8.jpg",
-  "/gallery/9.jpg",
+  {src: img1, alt:"Otomatic prístroj"},
+   {src: img2, alt:"Proces čistenia"},
+   {src: img3, alt:"Pred vyčistením"},
+   {src: img4, alt:"Po vyčistení"},
 ];
 
 const Gallery = () =>{
@@ -31,11 +32,11 @@ const Gallery = () =>{
         plugins={[lgZoom, lgThumbnail]}
         elementClassNames="grid md:grid-cols-3 gap-6"
       >
-        {images.map((src, i) => (
-          <a key={i} href={src}>
+        {images.map((image, i) => (
+          <a key={i} href={image.src}>
             <img
-              src={src}
-              alt={`DPF čistenie realizácia ${i + 1 }`}
+              src={image.src}
+              alt={image.alt}
               loading="lazy"
               className="w-full h-64 object-cover rounded-xl cursor-pointer"
             />

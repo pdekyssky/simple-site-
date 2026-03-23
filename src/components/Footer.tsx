@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -26,6 +27,13 @@ const Footer = () => {
                 <Phone className="w-4 h-4" />
                 +421 910 908 314
               </a>
+              <a href="https://www.instagram.com/rb_dpf/"
+              className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
+              >
+                <FaInstagram className="w-4 h-4" />
+                Instagram
+              </a>
+             
             </div>
           </div>
 
@@ -108,6 +116,14 @@ const Footer = () => {
                 >
                   <Mail className="w-4 h-4" />
                   info@igor.sk
+                </a>
+                
+              </li>
+              <li>
+                <a href="https://www.instagram.com/rb_dpf/"
+                className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors">
+                   <FaInstagram className="w-4 h-4" />
+                  R&B DPF Instagram
                 </a>
               </li>
             </ul>

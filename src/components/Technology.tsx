@@ -63,7 +63,7 @@ const Technology = () => {
   Čistenie DPF filtra
 </h2>
 <p className="text-accent text-xl mb-6">
-  s pomocou AI technológie
+  s pomocou AI technológie už od 130 €
 </p>
             <p className="text-muted-foreground text-lg mb-8">
               Naša firma pracuje s najnovším zariadením od firmy OTOMATIC - DPF PLATINUM AI – najvyššou patentovanou technológiou na čo najdokonalejšie vyčistenie DPF filtra.
