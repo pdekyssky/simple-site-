@@ -29,6 +29,7 @@ const Footer = () => {
               </a>
               <a href="https://www.instagram.com/rb_dpf/"
               className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
+              target="_blank"
               >
                 <FaInstagram className="w-4 h-4" />
                 Instagram
@@ -111,17 +112,18 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:info@igor.sk"
+                  href="mailto:dpfclinic@dpfclinic.sk" 
                   className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  info@igor.sk
+                  dpfclinic@dpfclinic.sk
                 </a>
                 
               </li>
               <li>
                 <a href="https://www.instagram.com/rb_dpf/"
-                className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors">
+                className="flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors"
+                target="_blank">
                    <FaInstagram className="w-4 h-4" />
                   R&B DPF Instagram
                 </a>

@@ -34,7 +34,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Vaše vozidlo bude opäť dýchať! Pomôžeme vám odstrániť usadeniny vo filtroch pevných častíc a katalyzátorov s najmodernejšou technológiou.
+            Vaše vozidlo bude opäť dýchať! Pomôžeme vám odstrániť usadeniny vo filtroch pevných častíc a katalyzátoroch s najmodernejšou technológiou.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>
